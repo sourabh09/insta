@@ -4,6 +4,14 @@ function getData() {
         alert("Enter url first!")
         return false
     }
+
+    if(name.includes("?")){
+
+        name = name.substring(0, name.indexOf('?'));
+    }
+
+    //alert(name);
+
     let url = name+"media?size=l";
     $('.info').html("<img src='"+url+"'>")
     $(".extra").text("");
