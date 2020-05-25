@@ -92,8 +92,3 @@ transform: translate(-50%, -50%);
   font-size: 24px;
   cursor: pointer;
 }
-.clearfield{
-  display: none;
-  margin-top: 15px;
-  margin: 0 auto;
-}
