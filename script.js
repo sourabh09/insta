@@ -15,7 +15,6 @@ function getData() {
     let url = name+"media?size=l";
     $('.info').html("<img src='"+url+"'>")
     $(".extra").text("");
-    $(".clearfield").css("display","block");
 }
 
 function AvoidSpace(event) {
